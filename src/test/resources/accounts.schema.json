@@ -17,7 +17,7 @@
         "type": "integer"
       },
       "name": {
-        "type": "integer",
+        "type": "string",
         "minLength": 1
       },
       "number": {
@@ -29,7 +29,11 @@
         "default": 0
       },
       "currency": {
-        "type": "string"
+        "type": "string",
+        "enum": [
+          "RUB",
+          "USD"
+        ]
       }
     }
   }
