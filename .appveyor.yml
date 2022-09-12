@@ -9,3 +9,4 @@ build: off  # будем использовать свой скрипт сбор
 build_script:
   - chmod +x ./gradlew
   - ./gradlew build
+  - stack: jdk 11
